@@ -1,9 +1,9 @@
 # hook_ionic_copy_android_notification_icons
-Cordova / ionic befor_build hook - Copy push notification icons to platform/android/res
+Cordova / ionic before build hook - Copy push notification icons to platform/android/res
 
 ## Needed npm packages
 - Lodash : `npm isntall lodash` (https://www.npmjs.com/package/lodash)
-- mkdirp : `npm install mkdirp` (https://www.npmjs.com/package/mkdirp)
+- mkdirp : `npm isntall mkdirp` (https://www.npmjs.com/package/mkdirp)
 
 ## Installation
 Create a `before_build` folder in `/hooks` directory
