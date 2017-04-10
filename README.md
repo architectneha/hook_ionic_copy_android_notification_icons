@@ -13,8 +13,6 @@ Download and paste `010_copy_android_notification_icons.js` file in `before_buil
 ## Generate icon
 Generate your notifications icons with this web app : http://romannurik.github.io/AndroidAssetStudio/icons-notification.htm (https://github.com/romannurik/AndroidAssetStudio)
 
-Or generate them with your own way.
-
 ## Set project variable
 Replace this placeholder.
 ```
