@@ -11,7 +11,7 @@ Create a `before_build` folder in `/hooks` directory
 Download and paste `010_copy_android_notification_icons.js` file in `before_build` directory.
 
 ## Generate icon
-Generate your notification icons with this web app: http://romannurik.github.io/AndroidAssetStudio/icons-notification.htm (https://github.com/romannurik/AndroidAssetStudio)
+Generate your notification icons with this web app: http://romannurik.github.io/AndroidAssetStudio/icons-notification.html (https://github.com/romannurik/AndroidAssetStudio)
 
 This tool generates this tree folders
 ```
