@@ -105,8 +105,8 @@ function copyFileTo(srcFilePath, destFilePath){
 }
 
 
-process.stdout.write("----------------------------------------------------");
-process.stdout.write("| Hook 010_copy_android_notification_icons : START |");
+process.stdout.write("---------------------------------------------------- \r\n");
+process.stdout.write("| Hook 010_copy_android_notification_icons : START | \r\n");
 process.stdout.write("---------------------------------------------------- \r\n");
 
 // Check if "platforms/android/res/" exist
@@ -125,7 +125,7 @@ pathExists(androidPlatformResDir)
 )
 .then(
   () => {
-    process.stdout.write("------------------------------------------------------");
+    process.stdout.write("------------------------------------------------------ \r\n");
     process.stdout.write("| Hook 010_copy_android_notification_icons : SUCCESS | \r\n");
     process.stdout.write("------------------------------------------------------ \r\n");
   }
