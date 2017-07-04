@@ -134,7 +134,7 @@ pathExists(androidPlatformResDir)
   (err) => {
     process.stdout.write("---------------------------------------------------- \r\n");
     process.stdout.write("| Hook 010_copy_android_notification_icons : ERROR | \r\n");
-    process.stdout.write(err);
+    console.log(err)
     process.stdout.write("---------------------------------------------------- \r\n");
     process.exit(1);
   }
