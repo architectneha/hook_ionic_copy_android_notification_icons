@@ -6,9 +6,20 @@ Cordova / ionic before build hook - Copy push notification icons to platform/and
 - mkdirp : `npm isntall mkdirp` <a href="https://www.npmjs.com/package/mkdirp" target="_blank">(https://www.npmjs.com/package/mkdirp)</a>
 
 ## Installation
-Create a `before_build` folder in `/hooks` directory
+Create a `hooksScripts` folder at root of your project.
+Create a `before_build` folder in `hooksScripts`
 
 Download and paste `010_copy_android_notification_icons.js` file in `before_build` directory.
+
+In your `config.xml`, add in platform android node
+
+```xml
+<platform name="android">
+  <hook src="hooksScripts/before_build/010_copy_android_notification_icons.js" type="before_build" />
+  ...
+</platform>
+
+Doc: https://cordova.apache.org/docs/en/latest/guide/appdev/hooks/
 
 ## Generate icon
 Generate your notification icons with this <a href="http://romannurik.github.io/AndroidAssetStudio/icons-notification.html" target="_blank">web app</a> <a href="https://github.com/romannurik/AndroidAssetStudio" target="_blank">(view on github)</a>
