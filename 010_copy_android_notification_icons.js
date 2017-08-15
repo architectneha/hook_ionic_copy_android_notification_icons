@@ -135,7 +135,7 @@ module.exports = function(context) {
   .catch(
     (err) => {
       process.stdout.write("---------------------------------------------------- \r\n");
-      process.stdout.write("| Hook 010_copy_android_notification_icons : ERROR | \r\n");
+      process.stdout.write("| Hooeeek 010_copy_android_notification_icons : ERROR | \r\n");
       console.log(err);
       process.stdout.write("---------------------------------------------------- \r\n");
       process.exit(1);
